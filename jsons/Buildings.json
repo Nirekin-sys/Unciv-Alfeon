@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Treasure Coffer",
+		"replaces": "Market",
+		"uniqueTo": "Alfeon",
+		"gold": 3,
+		"specialistSlots": {"gold": 1},
+		"cost": 180,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredNearbyImprovedResources": ["Gold","Silver"],
+		"requiredTech": "Currency"
+	},
+  	{
+		"name": "Golden Hall",
+		"uniqueTo": "Alfeon",
+		"cost": 280,
+		"gold": 5,
+		"happiness": 1,
+		"isNationalWonder": true,
+		"uniques": ["Empire enters golden age"],
+		"requiredBuildingInAllCities": "Treasure Coffer",
+		"requiredTech": "Guilds"
+    "quote": "'The desire for gold is not for gold, it is for the means of freedom and benefit.'  - Ralph Emerson"
+	}
+]
