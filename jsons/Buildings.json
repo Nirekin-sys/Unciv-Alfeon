@@ -5,7 +5,7 @@
 		"uniqueTo": "Alfeon",
 		"gold": 3,
 		"specialistSlots": {"gold": 1},
-		"cost": 180,
+		"cost": 120,
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Gold","Silver"],
 		"requiredTech": "Currency"
@@ -14,7 +14,7 @@
 		"name": "Golden Hall",
 		"replaces": "Bank",
 		"uniqueTo": "Alfeon",
-		"cost": 280,
+		"cost": 250,
 		"gold": 3,
 		"happiness": 1,
 		"specialistSlots": {"gold": 1},
